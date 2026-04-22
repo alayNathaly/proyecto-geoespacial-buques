@@ -2,7 +2,7 @@
 
 ## Descripción
 
-Aplicación web desarrollada con contenedores Docker que permite consultar puntos de interés geográficos.
+Aplicación web desarrollada con contenedores Docker que permite consultar puntos de interés geográficos sobre buques.
 
 El sistema utiliza:
 
@@ -19,8 +19,10 @@ Usuario -> Nginx -> Flask -> PostgreSQL
 
 - Página principal web
 - Listado de lugares
-- Filtro por categoría cultural
-- Filtro por categoría natural
+- Mapa con la ubicación de los buques
+- Filtro por buques graneleros
+- Filtro por buques tanqueros
+- Filtro por buques portacontenedores
 - Base de datos con carga inicial
 
 ## Contenedores
